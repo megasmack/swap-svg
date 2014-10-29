@@ -12,8 +12,8 @@ Fallback for SVG/SVGZ files in IMG tags to PNG files of the same name.
 Just save ```SVG``` or ```SVGZ``` files along with a fallback ```PNG``` images in the same directory and with file name. The script will swap out the file extension for browsers that do no support ```SVG``` files within ```img``` tags.
 
 Load the script before the end of ```body``` tag.
-```
-<script>swap-svg.js</script>
+```html
+<script src="swap-svg.js"></script>
 ```
 
 Or install via bower
@@ -24,13 +24,13 @@ bower install swap-svg --save
 ## Example
 
 This:
-```
+```html
 <img src="path/to/cool.svg" alt="">
 
 ```
 
 Becomes this in a browser like IE 8:
-```
+```html
 <img src="path/to/cool.png" alt="">
 
 ```
