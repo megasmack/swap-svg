@@ -1,6 +1,6 @@
 /*
- * Swap-SVG v1.0.0
- * https://bitbucket.org/gsmke/swap-svg/
+ * Swap-SVG v1.0.1
+ * https://github.com/gsmke/swap-svg
  */
 ;(function ($) {
     'use strict';

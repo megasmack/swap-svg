@@ -1,9 +1,9 @@
 {
     "name": "swap-svg",
-    "description": "Swap SVG/SVGZ files in IMG tags for PNG versions of the same name.",
-    "version": "1.0.0",
     "main": "swap-svg.js",
-    "homepage": "https://bitbucket.org/gsmke/swap-svg/overview",
+    "version": "1.0.1",
+    "description": "Fallback for SVG/SVGZ files in IMG tags to PNG files of the same name.",
+    "homepage": "https://github.com/gsmke/swap-svg",
     "authors": [
         "Steve Schrab <steve.schrab@gsdesign.com>"
     ],
@@ -12,8 +12,10 @@
         "svgz",
         "png",
         "jquery",
-        "modernizr"
+        "modernizr",
+        "fallback"
     ],
+    "license": "MIT",
     "dependencies": {
         "jquery": ">=1.11.0",
         "modernizr": ">=2.8.0"
