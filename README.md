@@ -9,9 +9,9 @@ Fallback for SVG/SVGZ files in IMG tags to PNG files of the same name.
 
 ## Usage
 
-Just save ```SVG``` or ```SVGZ``` files along with a fallback ```PNG``` images in the same directory and with file name. The script will swap out the file extension for browsers that do no support ```SVG``` files within ```img``` tags.
+Just save `SVG` or `SVGZ` files along with a fallback `PNG` images in the same directory and with file name. The script will swap out the file extension for browsers that do no support `SVG` files within `img` tags.
 
-Load the script before the end of ```body``` tag.
+Load the script before the end of `body` tag.
 ```html
 <script src="swap-svg.js"></script>
 ```
