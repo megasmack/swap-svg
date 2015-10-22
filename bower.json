@@ -1,11 +1,11 @@
 {
     "name": "swap-svg",
     "main": "swap-svg.js",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Fallback for SVG/SVGZ files in IMG tags to PNG files of the same name.",
     "homepage": "https://github.com/gsmke/swap-svg",
     "authors": [
-        "Steve Schrab <steve.schrab@gsdesign.com>"
+        "Steve Schrab <steve.schrab@gsdesign.com> (https://github.com/megasmack)"
     ],
     "keywords": [
         "svg",
@@ -16,6 +16,11 @@
         "fallback"
     ],
     "license": "MIT",
+    "ignore": [
+       ".editorconfig",
+       ".gitignore",
+       ".jshintrc"
+   ],
     "dependencies": {
         "jquery": ">=1.11.0",
         "modernizr": ">=2.8.0"
