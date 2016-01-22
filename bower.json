@@ -1,11 +1,11 @@
 {
     "name": "swap-svg",
     "main": "swap-svg.js",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Fallback for SVG/SVGZ files in IMG tags to PNG files of the same name.",
-    "homepage": "https://github.com/gsmke/swap-svg",
+    "homepage": "https://github.com/megasmack/swap-svg",
     "authors": [
-        "Steve Schrab <steve.schrab@gsdesign.com> (https://github.com/megasmack)"
+        "Steve Schrab (https://github.com/megasmack)"
     ],
     "keywords": [
         "svg",
